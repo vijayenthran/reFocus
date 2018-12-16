@@ -1,0 +1,31 @@
+{
+  "name": "reFocus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "authorName": "Vijay",
+  "description": "Helps Focus back on your work by blocking entertaining Websites.",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode=development",
+    "generatebundle": "webpack --config webpack.config.js --mode=development"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
