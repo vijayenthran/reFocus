@@ -1,3 +1,5 @@
+// Minimal React chrome extension Application Scaffold
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
